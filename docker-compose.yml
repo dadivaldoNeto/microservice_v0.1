@@ -1,0 +1,13 @@
+
+services:
+  message-services:
+    build: message-service:1.0
+    image: message-micro
+    ports:
+    - "8080:8080"
+
+  auth-services:
+    build: auth-service:1.0
+    image: auth-micro
+    ports:
+      - "9001:8080"
