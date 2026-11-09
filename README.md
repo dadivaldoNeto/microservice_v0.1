@@ -36,15 +36,17 @@ Serviço de autenticação, ainda por implementar. As dependências já incluem 
 .
 ├── auth-service/
 │   ├── Dockerfile
-│   ├── go.mod
-│   ├── go.sum
-│   └── main.go
+|   └── tools/
+│       ├── go.mod
+│       ├── go.sum
+│       └── main.go
 ├── message-service/
 │   ├── .dockerignore
 │   ├── Dockerfile
-│   ├── go.mod
-│   ├── go.sum
-│   └── main.go
+|   └── tools/
+│       ├── go.mod
+│       ├── go.sum
+│       └── main.go
 └── docker-compose.yml
 ```
 
